@@ -1,0 +1,31 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <script src="http://img.mukewang.com/down/540812440001e40e00000000.js" type="text/javascript"></script>
+  <script src="http://img.mukewang.com/down/541f6ff70001a0a500000000.js" type="text/javascript"></script>
+  <title></title>
+</head>
+<body>
+
+<div id="aaron"></div>
+
+<script type="text/javascript">
+	var $$ = ajQuery = function(selector) {
+		//把原型上的init作为构造器
+		return new ajQuery.fn.init( selector );
+	}
+
+	ajQuery.fn = ajQuery.prototype =  {
+		name: 'aaron',
+		init: function() {
+			console.log(this)
+		},
+		constructor: ajQuery
+	}
+
+	ajQuery.fn.init.prototype = ajQuery.prototype
+
+</script>
+</body>
+</html>
