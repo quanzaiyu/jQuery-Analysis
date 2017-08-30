@@ -2,24 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8af8ec53-c808-438f-902d-3e845503ff0b" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/001.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/002.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/003.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/004.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/deployment.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/jQuery-Analysis.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/01.整体架构 - 立即调用表达式.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/02.整体架构 - 类数组对象结构.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/03.整体架构 - jQuery中ready与load事件.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/04.整体架构 - jQuery多库共存处理.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/05.核心模块 - 对象的构建.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/06.核心模块 - 分离构造器.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery-2.1.1.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/07.核心模块 - 静态与实例方法共享设计.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/08.核心模块 - 方法链式调用的实现.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/09.核心模块 - 插件接口的设计.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/10.核心模块 - 回溯处理的设计.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/11.核心模块 - end与addBack.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/12.核心模块 - 仿栈与队列的操作.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/13.核心模块 - get与eq的区别.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/14.核心模块 - 迭代器.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test.html" afterPath="$PROJECT_DIR$/test.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -37,21 +29,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="jquery-2.1.1.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="jquery-2.1.1.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/jquery-2.1.1.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="417">
+            <state relative-caret-position="609">
               <caret line="3330" column="0" lean-forward="true" selection-start-line="3330" selection-start-column="0" selection-end-line="3330" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="test.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="196">
-              <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+            <state relative-caret-position="452">
+              <caret line="28" column="28" lean-forward="true" selection-start-line="28" selection-start-column="28" selection-end-line="28" selection-end-column="28" />
               <folding />
             </state>
           </provider>
@@ -228,12 +220,27 @@
       <option name="presentableId" value="Default" />
       <updated>1503978086578</updated>
       <workItem from="1503978088383" duration="2051000" />
-      <workItem from="1504055621282" duration="6379000" />
+      <workItem from="1504055621282" duration="13306000" />
     </task>
+    <task id="LOCAL-00001" summary="jQuery源码解析">
+      <created>1504064793171</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1504064793171</updated>
+    </task>
+    <task id="LOCAL-00002" summary="jQuery源码解析">
+      <created>1504087258164</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1504087258164</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8430000" />
+    <option name="totallyTimeSpent" value="15357000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -263,6 +270,10 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="jQuery源码解析" />
+    <option name="LAST_COMMIT_MESSAGE" value="jQuery源码解析" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
@@ -277,18 +288,18 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/0.js" />
-    <entry file="file://$PROJECT_DIR$/test.html">
+    <entry file="file://$PROJECT_DIR$/jquery-2.1.1.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+        <state relative-caret-position="609">
+          <caret line="3330" column="0" lean-forward="true" selection-start-line="3330" selection-start-column="0" selection-end-line="3330" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jquery-2.1.1.js">
+    <entry file="file://$PROJECT_DIR$/test.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="417">
-          <caret line="3330" column="0" lean-forward="true" selection-start-line="3330" selection-start-column="0" selection-end-line="3330" selection-end-column="0" />
+        <state relative-caret-position="452">
+          <caret line="28" column="28" lean-forward="true" selection-start-line="28" selection-start-column="28" selection-end-line="28" selection-end-column="28" />
           <folding />
         </state>
       </provider>
